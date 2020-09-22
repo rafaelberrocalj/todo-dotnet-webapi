@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todo-api", "todo-api\todo-api.csproj", "{B8AB17E2-A3BD-4469-9AF4-DCC7F837F910}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todo-db", "todo-db\todo-db.csproj", "{964F425B-49E4-4294-A3FA-11EF63E5B85D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todo-test", "todo-test\todo-test.csproj", "{91B45C67-D4DE-412D-87E4-32D0F0B82370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8AB17E2-A3BD-4469-9AF4-DCC7F837F910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AB17E2-A3BD-4469-9AF4-DCC7F837F910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AB17E2-A3BD-4469-9AF4-DCC7F837F910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AB17E2-A3BD-4469-9AF4-DCC7F837F910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{964F425B-49E4-4294-A3FA-11EF63E5B85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964F425B-49E4-4294-A3FA-11EF63E5B85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964F425B-49E4-4294-A3FA-11EF63E5B85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964F425B-49E4-4294-A3FA-11EF63E5B85D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B45C67-D4DE-412D-87E4-32D0F0B82370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B45C67-D4DE-412D-87E4-32D0F0B82370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B45C67-D4DE-412D-87E4-32D0F0B82370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B45C67-D4DE-412D-87E4-32D0F0B82370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDCC227E-06F1-4DC1-8319-F1CA7BF03A6D}
+	EndGlobalSection
+EndGlobal

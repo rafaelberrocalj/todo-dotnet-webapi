@@ -1,0 +1,7 @@
+language: csharp
+mono: none
+dotnet: 3.1
+script:
+ - dotnet restore src/todo.sln
+ - dotnet build src/todo.sln --configuration Release --no-restore
+ - dotnet test src/todo.sln --no-restore --verbosity normal
