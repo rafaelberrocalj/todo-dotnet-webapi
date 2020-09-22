@@ -9,6 +9,4 @@
     
      steps:
        - checkout
-       - run: dotnet restore src/todo.sln
-       - run: dotnet build src/todo.sln --configuration Release --no-restore
-       - run: dotnet test src/todo.sln --no-restore --verbosity normal
+       - run: dotnet build
