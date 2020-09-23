@@ -1,0 +1,8 @@
+version: 1.0.{build}
+
+build_script:
+- dotnet restore src/todo.sln
+- dotnet build src/todo.sln --configuration Release --no-restore
+
+test_script:
+- dotnet test src/todo.sln --no-restore --verbosity normal
