@@ -11,3 +11,6 @@ https://travis-ci.com/github/rafaelberrocalj/todo-dotnet-webapi
 
 CircleCI
 https://app.circleci.com/pipelines/github/rafaelberrocalj/todo-dotnet-webapi
+
+AppVeyor
+https://ci.appveyor.com/project/rafaelberrocalj/todo-dotnet-webapi
